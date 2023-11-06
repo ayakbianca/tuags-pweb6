@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kalkulator Menggunakan Vue.js</title>
+  </head>
+
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
+  <body>
+    <h2>Kalkulator Menggunakan Vue.js</h2>
+
+    <div id="app">
+      <input v-model="nomor1"> <br> <br>
+      <input v-model="nomor2"> <br> <br>
+
+      <button @click="tambah">+</button>
+      <button @click="kurang">-</button>
+      <button @click="kali">*</button>
+      <button @click="bagi">/</button>
+
+      <p>Hasil: {{ hasil }}</p>
+    </div>
+
+    <script src="pwebenam.js"></script>
+  </body>
+</html>
